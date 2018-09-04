@@ -150,15 +150,15 @@ export default class Projects extends Component {
             <p class="card-footer-item">
               <span>
                 View the application on{' '}
-                <a href="https://twitter.com/codinghorror/status/506010907021828096">
-                  Twitter
+                <a href="">
+
                 </a>
               </span>
             </p>
             <p class="card-footer-item">
               <span>
                 Feel free to check out the code as well!{' '}
-                <a href="#">Facebook</a>
+                <a href="https://github.com/Jonny-Riggs/Classroom-App">Github</a>
               </span>
             </p>
           </footer>
@@ -175,15 +175,15 @@ export default class Projects extends Component {
             <p class="card-footer-item">
               <span>
                 View the application on{' '}
-                <a href="https://twitter.com/codinghorror/status/506010907021828096">
-                  Twitter
+                <a href="https://github.com/Jonny-Riggs/Classroom-App">
+
                 </a>
               </span>
             </p>
             <p class="card-footer-item">
               <span>
                 Feel free to check out the code as well!{' '}
-                <a href="#">Facebook</a>
+                <a href="">Github</a>
               </span>
             </p>
           </footer>
