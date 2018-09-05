@@ -5,6 +5,7 @@
   "dependencies": {
     "bulma": "^0.7.1",
     "react": "^16.4.2",
+    "react-animated-text": "^0.1.3",
     "react-dom": "^16.4.2",
     "react-mail-form": "^1.0.1",
     "react-mailto": "^0.4.0",

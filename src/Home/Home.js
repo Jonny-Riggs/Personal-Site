@@ -1,6 +1,18 @@
 import React, { Component } from 'react';
 import 'bulma/css/bulma.css';
+import { Wave } from 'react-animated-text';
 
+const Intro = () => (
+  <Wave text="Hello World!" />
+);
+
+const Podcasts = () => (
+  <Wave text="Podcasts" />
+)
+
+const Blogs = () => (
+  <Wave text="Blogs" />
+)
 export default class Home extends Component {
   render() {
     return (
@@ -23,7 +35,7 @@ export default class Home extends Component {
             </div>
             <div className="tile is-parent is-8 is-shady">
               <article className="tile is-child notification is-grey has-text-centered">
-                <p className="title">Hello World!</p>
+                <p className="title"><Intro /></p>
                 <div className="content">
                   <h2>
                     My name is Jonathan Riggs and I am incredibly excited to
@@ -48,7 +60,7 @@ export default class Home extends Component {
                       <p className="subtitle">Top box</p>
                     </article> */}
                     <article className="tile is-child notification is-grey">
-                      <p className="title">Podcasts</p>
+                      <p className="title"><Podcasts /></p>
                       <p className="subtitle">
                         I've learned that taking breaks from code can be a very
                         powerful tool for you to get the most out of what you're
@@ -91,7 +103,7 @@ export default class Home extends Component {
               <div className="tile is-parent is-shady">
                 <article className="tile is-child notification is-grey">
                   <div className="content">
-                    <p className="title">Blogs</p>
+                    <p className="title"><Blogs/></p>
                     <p className="subtitle">
                       With technology changing everyday, I thinks it's very
                       important to stay on top of new ideas to create a

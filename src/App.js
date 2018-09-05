@@ -5,7 +5,6 @@ import Home from './Home/Home'
 import AboutMe from './AboutMe/AboutMe'
 import Projects from './Projects/Projects'
 import Contact from './Contact/Contact';
-import Landing from './Landing/Landing'
 
 class App extends Component {
   render() {
@@ -13,7 +12,6 @@ class App extends Component {
       <Router>
         <div>
           <Nav />
-          <Route path="/" component={Landing}></Route>
           <Route path="/Home" component={Home} />
           <Route path="/AboutMe" component={AboutMe} />
           <Route path="/Projects" component={Projects} />
