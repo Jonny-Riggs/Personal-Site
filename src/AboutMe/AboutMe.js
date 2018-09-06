@@ -53,9 +53,19 @@ export default class AboutMe extends Component {
             </div>
             <div class="tile is-parent">
               <article class="tile is-child notification is-grey">
-                <p class="title">Brief Overview of Education</p>
-                <p class="subtitle">Aligned with the right tile</p>
-                <div class="content" />
+                <p class="title">Education</p>
+                <p class="subtitle"></p>
+                 <div class="content">
+                  One of the biggest reasons why I love being a software developer is the
+                  fact that there will never be a time in my professional career were I'm
+                  not learning. Having a profession that you're passionate about that also is
+                  challenging makes for an incredible work environment. While at Nashville
+                  Software School, I was able to learn and hone the skills needed to thrive in this
+                  kind of environment. Something that was said very early on that really stuck with
+                  me was that in an industry where everything is constantly changing and evolving,
+                  it's impossible to know absolutely everything. What I plan to do is to make sure
+                  I have the skills to take a problem and think like a programmer to find an answer.
+                </div>
               </article>
             </div>
           </div>
