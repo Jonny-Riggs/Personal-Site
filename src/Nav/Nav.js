@@ -5,7 +5,7 @@ import 'bulma/css/bulma.css'
 export default class Nav extends Component {
     render() {
         return (
-            <section className="hero is-dark is-medium is-bold">
+            <section className="hero is-dark is-fullheight is-bold">
                 <div className="hero-head">
                     <nav className="navbar">
                         <div className="container">
