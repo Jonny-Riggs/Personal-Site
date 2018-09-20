@@ -17,7 +17,7 @@ export default class Contact extends Component {
                     to="route"
                     onClick={event => {
                       event.preventDefault();
-                      window.open('resume/Resume.pdf');
+                      window.open('resume/Resume v2.0.pdf');
                     }}
                   >
                     Click to download
