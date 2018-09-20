@@ -166,8 +166,10 @@ export default class Projects extends Component {
         <div class="card box">
           <div class="card-content">
             <p class="title">
-              “This will be the placeholder for my final capstone project. I will have it completed and deployed in 3 weeks
-              and will have the site and code available here as well.”
+              “The Studio Manager App gives engineers the ability to organize their day to day activities as well as
+              save data as needed. Utilizing a CRUD app with a Django Rest Framework backend and React frontend, each
+              engineer will have a login and the ability to customize and save data as needed to make their lives a little
+              easier!”
             </p>
             <p class="subtitle">Jonny Riggs</p>
           </div>
@@ -175,7 +177,7 @@ export default class Projects extends Component {
             <p class="card-footer-item">
               <span>
                 View the application on{' '}
-                <a href="https://github.com/Jonny-Riggs/Classroom-App">
+                <a href="">
 
                 </a>
               </span>
@@ -183,7 +185,7 @@ export default class Projects extends Component {
             <p class="card-footer-item">
               <span>
                 Feel free to check out the code as well!{' '}
-                <a href="">Github</a>
+                <a href="https://github.com/Jonny-Riggs/Studio-Manager">Github</a>
               </span>
             </p>
           </footer>
